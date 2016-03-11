@@ -28,8 +28,10 @@ namespace flowTools {
 		int		getWidth() {return width;};
 		int		getHeight(){return height;};
 		
+		float getStrength() {return strength.get();}
 		int		getBlurPasses() {return blurPasses.get();}
 		float	getBlurRadius() {return blurRadius.get();}
+		void  setStrength(float value) {strength.set(value);}
 		void	setBlurPasses(int value) {blurPasses.set(value);}
 		void	setBlurRadius(float value) {blurRadius.set(value);}
 		
